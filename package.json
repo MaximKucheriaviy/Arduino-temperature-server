@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "tscDev": "tsc -w",
     "dev": "nodemon ./dist/index.js --ignore dist/data.json",
-    "start": "tsc && node ./dist/index.js",
+    "start": "node ./dist/index.js",
     "build": "npm i && tsc"
   },
   "keywords": [],
